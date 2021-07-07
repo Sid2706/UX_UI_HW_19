@@ -3,27 +3,29 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="Css/style.css">
-    <title>Homework19</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Homework19</title>
 </head>
 
 <header>
-      <div>
-        <img src="C:\Users\sid27\Desktop\Ux_Ui_HW17\Images\Rectangle 39.jpg" width="1890" height="200" alt="Navcover"> </div>
-  
-            <nav class="main-nav"> 
-                <p class="menu"> Work </p>
-                <p class="menu"> About</p>
-                <p class="menu"> Contact </p>
+  <div id="banner">
+    <img src="C:\Users\sid27\Desktop\Ux_Ui_HW17\Images\Rectangle 39.jpg" width="1890" height="200" alt="Navcover"> </div>
+<div>
+            <nav id="mainnav"> 
+                <a id="wo" href="index.html">   Work </a>
+                <a id="ab" href="aboutme.html"> About</a>
+                <a id="co" href="contact.html"> Contact </a>
             </nav>
-
+            
         <div class="container">
-  
-            <img class="profileimage" src="C:\Users\sid27\Desktop\Ux_Ui_HW18\Images\profilepic.jpg" width="530" height="530" alt="Me"> 
-            <div>
+         
+            <img id="profileimage" src="C:\Users\sid27\Desktop\Ux_Ui_HW18\Images\profilepic.jpg" width="530" height="530" alt="Me"> 
+            <div id="animation">
             <h1 > Sid ahmed Ouadah </h1>
             <h2 > UX/UI Designer </h2>
               <h3 > San Francisco, California </h3>
-              <p > A dedicated, detail-oriented UX/UI designer
+              <p> A dedicated, detail-oriented UX/UI designer
                   specializing in user-centric design research,
                    user interface development, visual and 
                     web prototyping. 
@@ -39,11 +41,12 @@
     <section class="grid-container1">
 
       <div class="grid-item grid-item-1"> 
-     <h1 >My work </h1> 
+     <h1> My work </h1> 
      <h2 id="subtitel"> A small selection of my work </h2>
     </div>
    
-    <div class="grid-item grid-item-2"> 
+    <div id="grid-item-2"> 
+      
             <img src="C:\Users\sid27\Desktop\Ux_Ui_HW18\Images\project1.jpg" width="487" height="720"alt="Inertia">
             </div>
           
@@ -55,7 +58,7 @@
             </p>
           </div>
 
-            <div class="grid-item grid-item-4"> 
+            <div id="grid-item-4"> 
             <img src="C:\Users\sid27\Desktop\Ux_Ui_HW18\Images\project2.jpg" width="380" height="720"alt="Partyluck">
            </div>
               
@@ -65,24 +68,27 @@
                 tracking down guests, and the stress of party planning. </p>
                 <button class="button2"> Learn more </button>
             </div>
+            <div class="scroll-top"> 
+              <img src="file:///C:/Users/sid27/Desktop/UX_UI_HW_19/images/right-arrow.svg" width="49" height="49" alt="top"> 
+            </div>
 </section>
 
 <Footer>
+  <Div class="banner"> </Div>
 
-  <div class="flex-container">
-    <img class="item1" src="C:\Users\sid27\Desktop\Ux_Ui_HW17\Images\Rectangle 38.jpg" width="1890" height="320" alt="footercover"> 
-    <p class="item2"> Let’s get in touch </p>
-    <p class="item3"> for new projects and collaborations </p>
-      <p class="item4"> Email:  Sid27061987@gmail.com </P>
-    <p  class="item5" id="socialmedia" > Say "Hi" on social media 
-      <img  src=https://brandbuildingforsmallbusiness.files.wordpress.com/2020/03/linkedin.jpg?w=265  width="49" height="49" alt="icon"> 
-      <img src=https://brandbuildingforsmallbusiness.files.wordpress.com/2020/03/instagram-3.jpg?w=225  width="49" height="49" alt="icon">
-      <img  src=https://brandbuildingforsmallbusiness.files.wordpress.com/2020/03/twitter.jpg?w=225 width="49" height="49" alt="icon"> 
-    </P> 
-  </div>
-  <p class="item6">© 2021 by Sid Ahmed Ouadah </p>
+    <p class="itm1">Send me an email:
+    </p>
+    <p class="itm2"> Sid27061987@gmail.com </p>
+    <p  class="itm3"> Or message me on social media  
+      <img  class="socialmedia" src=file:///C:/Users/sid27/Desktop/UX_UI_HW_19/images/linkedin.svg  width="49" height="49" alt="icon"> 
+      <img  class="socialmedia" src=file:///C:/Users/sid27/Desktop/UX_UI_HW_19/images/instagram%20(3).svg  width="49" height="49" alt="icon">
+      <img  class="socialmedia" src=file:///C:/Users/sid27/Desktop/UX_UI_HW_19/images/twitter.svg width="49" height="49" alt="icon"> 
+    </p>
 
-</Footer>
-</body>
+  <p class="copyright">© 2021 by Sid Ahmed Ouadah </p>
+</div>
+
+     
+
 <script src="js/index.js"></script>
 </html>
